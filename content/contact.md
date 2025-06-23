@@ -9,8 +9,8 @@ seo:
   no_index: false
 content_blocks:
   - _bookshop_name: contact/hero
-    title: Let's talk.
-    description: Have a question or suggestion? Feel free to drop us a message!
+    title: Let's get your network going.
+    description: Want to get your account started or have questions? This is the best place to start!
   - _bookshop_name: contact/form
     address:
       heading: Office Address
@@ -19,10 +19,10 @@ content_blocks:
       heading: Phone
       cell: (123) 456 - 7895
     email:
-      heading: Email
-      email: info@example.com
+      heading: Sales
+      email: sales@captivi.info
     form:
-      heading: Say Hello
+      heading: Tell us a little bit about you
       fullName:
         heading: Full Name
         placeHolder: Enter First Name

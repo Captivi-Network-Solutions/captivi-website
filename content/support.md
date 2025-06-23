@@ -30,4 +30,31 @@ content_blocks:
         description: We accept credit cards, checks, and cash.
       - title: In which currencies can I make payments?
         description: All payments are in **USD**.
+
+  - _bookshop_name: contact/hero
+    title: Need some help?
+    description: If you're an existing customer and need help, you're in the right place!
+  - _bookshop_name: contact/form
+    phone:
+      heading: Phone
+      cell: (123) 456 - 7895
+    email:
+      heading: Support
+      email: support@captivi.info
+    form:
+      heading: Tell us what's going on so we can better assist.
+      fullName:
+        heading: Full Name
+        placeHolder: Enter First Name
+      phoneNumber:
+        heading: Phone number
+        placeHolder: Enter Phone Number
+      email:
+        heading: Email Address
+        placeHolder: Enter Email Address
+      message:
+        heading: Problem description
+        placeHolder: Tell us a little bit about what's wrong? Any error messages or timestamps are always helpful.
+      submitBtn:
+        text: Send message
 ---

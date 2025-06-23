@@ -40,12 +40,12 @@
                   {{ if .isActive }}
                   <li>
                     <i class="ph-check"></i>
-                    {{.item}}
+                    {{.item | markdownify}}
                   </li>
                   {{else}}
                   <li class="deactive">
                     <i class="ph-check deactive"></i>
-                    {{.item}}
+                    {{.item | markdownify}}
                   </li>
                   {{ end }}
                 {{ end }}

@@ -32,10 +32,12 @@ content_blocks:
             isActive: true
           - item: Up to 3 Sites
             isActive: true
-          - item: UniFi Network Monitoring
+          - item: ~~UniFi Network Monitoring~~
             isActive: false
-          - item: UniFi Proactive Recommendations
+          - item: ~~UniFi Proactive Recommendations~~
             isActive: false
+          - item: One-time Setup Fee ($250)*
+            isActive: true
         btn:
           link: /contact
           text: Get Started
@@ -58,8 +60,10 @@ content_blocks:
             isActive: true
           - item: UniFi Network Monitoring
             isActive: true
-          - item: UniFi Proactive Recommendations
+          - item: ~~UniFi Proactive Recommendations~~
             isActive: false
+          - item: One-time Setup Fee ($250)*
+            isActive: true
         btn:
           link: /contact
           text: Get Started
@@ -84,9 +88,45 @@ content_blocks:
             isActive: true
           - item: UniFi Proactive Recommendations
             isActive: true
+          - item: ~~One-time Setup Fee ($250)*~~
+            isActive: false
         btn:
           link: /contact
           text: Get Started
+
+  - _bookshop_name: global/feature
+    title: One-time Setup Fee
+    description: |
+      **Starting at $250**
+
+      Includes installation, customization, and onboarding support.
+
+      _Complex or multi-site setups may incur additional fees._
+    image_path: /images/feature/feature-implementation.png
+    btn:
+      text: Contact Us
+      link: /contact
+    reversed: false
+
+  - _bookshop_name: global/feature
+    title: Network Design & Optimization
+    description: |
+      Not sure if your UniFi network is set up for success?  
+      Captivi offers expert network design and consulting to make sure your staff, guest, and secure networks follow best practices for performance and security.
+
+      **Services include:**
+      - Custom WiFi design for reliable guest & staff connectivity  
+      - Best-practice UniFi VLAN, SSID, and security setup  
+      - Site surveys and performance tuning  
+      - Ongoing advisory and upgrade planning  
+
+      _Contact us to discuss a network assessment or design package for your business!_
+    image_path: /images/feature/feature-network-consulting.png
+    btn:
+      text: Get in Touch
+      link: /contact
+    reversed: true
+
   # - _bookshop_name: global/faq
   #   title: Have
   #   title_suffix: Questions?

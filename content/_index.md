@@ -22,7 +22,7 @@ content_blocks:
       title: Secure your
       title_suffix: WiFi
       description: >-
-         Captivi streamlines guest WiFi access for hospitality, retail, and event spaces by connecting your UniFi network to real-time Square POS receipts. No more manual voucher codes. Just easy, secure access when your guests need it most.
+         Captivi streamlines guest WiFi access for hospitality, retail, and event spaces by connecting your UniFi network to real-time Square POS receipts. No more manual voucher codes or shared keys. Just easy, secure access when your guests need it most.
       alternateStyle: false
       numbers:
          -
