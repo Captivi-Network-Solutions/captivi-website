@@ -10,19 +10,29 @@ seo:
 content_blocks:
    -
       _bookshop_name: home/hero
-      title: Wifi, Simplified. Guests, Captivated.
-      description: >-
-         Seamless guest onboarding for UniFi networks with integrated Square POS validation.
+      title: Secure Guest Wi‑Fi Without the Marketing Hooks.
+      description: |
+         Captivi keeps your network fast, private, and hassle-free by giving Wi‑Fi access only to paying customers — using your existing Square POS and UniFi gear.
+         
+         **No signups. No social logins. No staff tech support required.**
       image_path: /images/hero/captivi-login-page2.png
       link:
-         text: Show Me
-         url: /Feature
+         text: Features
+         url: /feature
    -
       _bookshop_name: global/counter
-      title: Secure your
-      title_suffix: WiFi
-      description: >-
-         Captivi streamlines guest WiFi access for hospitality, retail, and event spaces by connecting your UniFi network to real-time Square POS receipts. No more manual voucher codes or shared keys. Just easy, secure access when your guests need it most.
+      title: Why
+      title_suffix: Captivi?
+      description: |
+         Some captive integration systems turn your customers into marketing leads. _Captivi doesn’t_. Instead, we strive to keep your Wi‑Fi clean, simple, and secure — granting access only to verified paying customers.
+
+         --
+
+         **No personal info forms, no promo emails, no staff handing out passwords.**
+
+         --
+
+         Just fast, branded Wi‑Fi that works — backed by network experts who keep things running smoothly behind the scenes.
       alternateStyle: false
       numbers:
          -
@@ -40,46 +50,18 @@ content_blocks:
             text: Staff hours saved
    -
       _bookshop_name: home/video
+      title: See Captivi in action.
       image_path: /images/video/video-thum.png
       videoUrl: /static/images/video/captivi-demo.mp4
    -
-      _bookshop_name: global/header
-      title: 'Captivi '
-      title_suffix: Features
-      no_top_pad: true
-      description: >-
-         . . .
-   -
-      _bookshop_name: global/feature
-      image_path: /images/feature/feature-card-one-captivi.png
-      title: Effortless Guest Access
-      description: >-
-         Authorize guests onto WiFi with proof of purchase using a simple Square receipt. Less clicks for your customers, no hassle for your employees.
-      btn:
-         link: /#
-         text: Get Started
-      reversed: false
-   -
-      _bookshop_name: global/feature
-      image_path: /images/feature/feature-card-two-captivi.png
-      title: Designed for UniFi + Square
-      description: >-
-         Built specifically for Ubiquiti UniFi controllers and Square POS. No clunky workarounds or complex hardware required (in fact, no extra hardware at all!).
-      btn:
-         link: /#
-         text: Get Started
-      reversed: true
-   -
-      _bookshop_name: global/feature
-      image_path: /images/feature/feature-card-three-captivi.png
-      title: Modern. Secure. Flexible.
-      description: >-
-         Keep your network safe. Only paying or validated guests connect, with customizable timeouts, access, and bandwidth rules.
-         Clean, branded captive portal on any device. No app required.
-      btn:
-         link: /#
-         text: Get Started
-      reversed: false
+      _bookshop_name: home/hero
+      image_path:
+      title: Make your Wi‑Fi work for your business — not the other way around.
+      description: |
+         Contact us to get started or schedule a quick walkthrough.
+      link:
+         text: Contact Us
+         url: /contact
    -
       _bookshop_name: global/testimonial
       title: Our clients are

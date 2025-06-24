@@ -1,5 +1,5 @@
 ---
-title: Feature
+title: Features
 seo:
   page_description: 
   canonical_url: 
@@ -9,20 +9,39 @@ seo:
   no_index: false
 content_blocks:
    -
-      _bookshop_name: feature/hero
+      _bookshop_name: global/header
+      title: 'Captivi '
+      title_suffix: Features
+      no_top_pad: false
+      description: |
+   -
+      _bookshop_name: global/feature
+      image_path: /images/feature/feature-card-one-captivi.png
       title: Effortless Guest Access
       description: >-
-         Authorize guests onto WiFi with proof of purchase using a simple Square receipt. Less clicks for your customers, no hassle for your employees.
-      btn:
-         link: /pricing
-         text: See Pricing
-      image_path: /images/feature/feature-card-one-captivi.png
+         Customers enter their Square receipt code and get online. No extra forms, no accounts, no hassle.
+      reversed: false
    -
-      _bookshop_name: global/header
-      title: "Designed for "
-      title_suffix: UniFi + Square
+      _bookshop_name: global/feature
+      image_path: /images/feature/feature-card-needed.png
+      title: Secure & Flexible
+      description: >-
+         Staff and guest traffic are automatically separated. You control time limits, bandwidth, and access — or let us do it for you.
+      reversed: true
+   -
+      _bookshop_name: global/feature
+      image_path: /images/feature/feature-card-two-captivi.png
+      title: Designed for UniFi + Square
       description: >-
          Built specifically for Ubiquiti UniFi controllers and Square POS. No clunky workarounds or complex hardware required (in fact, no extra hardware at all!).
+      reversed: false
+   -
+      _bookshop_name: global/feature
+      image_path: /images/feature/feature-card-needed.png
+      title: Privacy-First by Design
+      description: >-
+         No data harvesting, tracking, or marketing. We don’t sell data, and we don’t market to your customers — ever.
+      reversed: true
    -
       _bookshop_name: global/feature
       image_path: /images/feature/feature-card-three-captivi.png
@@ -30,10 +49,51 @@ content_blocks:
       description: >-
          Keep your network safe. Only paying or validated guests connect, with customizable timeouts, access, and bandwidth rules.
          Clean, branded captive portal on any device. No app required.
+      reversed: false
+   -
+      _bookshop_name: global/feature
+      image_path: /images/feature/feature-card-three-captivi.png
+      title: Branded Captive Portal.
+      description: >-
+         Your logo, your colors, your Wi‑Fi. Captivi works on any modern device with no app required.
+      reversed: true
+   -
+      _bookshop_name: global/feature
+      image_path: /images/feature/feature-card-three-captivi.png
+      title: Support That Actually Helps.
+      description: >-
+         From day one setup to network monitoring, Captivi includes support from real UniFi professionals with decades of experience working in military grade environments.
       btn:
          link: /pricing
          text: See Pricing
       reversed: false
+
+# -
+   #    _bookshop_name: feature/hero
+   #    title: Effortless Guest Access
+   #    description: >-
+   #       Authorize guests onto WiFi with proof of purchase using a simple Square receipt. Less clicks for your customers, no hassle for your employees.
+   #    btn:
+   #       link: /pricing
+   #       text: See Pricing
+   #    image_path: /images/feature/feature-card-one-captivi.png
+   # -
+   #    _bookshop_name: global/header
+   #    title: "Designed for "
+   #    title_suffix: UniFi + Square
+   #    description: >-
+   #       Built specifically for Ubiquiti UniFi controllers and Square POS. No clunky workarounds or complex hardware required (in fact, no extra hardware at all!).
+   # -
+   #    _bookshop_name: global/feature
+   #    image_path: /images/feature/feature-card-three-captivi.png
+   #    title: Modern. Secure. Flexible.
+   #    description: >-
+   #       Keep your network safe. Only paying or validated guests connect, with customizable timeouts, access, and bandwidth rules.
+   #       Clean, branded captive portal on any device. No app required.
+   #    btn:
+   #       link: /pricing
+   #       text: See Pricing
+   #    reversed: false
    # -
    #    _bookshop_name: global/feature
    #    image_path: /images/feature/feature-card-two.png

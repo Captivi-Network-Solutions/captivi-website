@@ -12,20 +12,16 @@ items:
     text: Pricing
     enable_dropdown: false
     dropdown:
-#  - link: /about/
-#    text: About
-#    enable_dropdown: false
-#    dropdown:
+  - link: /about/
+    text: About
+    enable_dropdown: false
+    dropdown:
   - link: /support/
     text: Support
-    enable_dropdown: true
+    enable_dropdown: false
     dropdown:
-#      - dropdown_text: Main
-#        dropdown_link: /support/
-      - dropdown_text: FAQ
-        dropdown_link: /support/
-      - dropdown_text: Contact
-        dropdown_link: /contact/
+#  - dropdown_text: Main
+#    dropdown_link: /support/
 #  - link: /contact/
 #    text: Contact
 #    enable_dropdown: false

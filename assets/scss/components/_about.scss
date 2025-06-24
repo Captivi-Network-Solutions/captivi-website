@@ -4,7 +4,7 @@
 .about {
   &-hero-one {
     padding: $base-padding * 4.5 0 $base-padding * 29;
-    background: $color-secondary-dark;
+    background: $color-secondary-light;
     @include media-breakpoint-down-xl {
       padding: $base-padding * 4.5 0 $base-padding * 20;
     }
@@ -17,7 +17,7 @@
   }
   &-hero-two {
     padding: $base-padding * 9 0 $base-padding * 3;
-    background: $color-secondary-dark;
+    background: $color-secondary-light;
     overflow: hidden;
     @include media-breakpoint-down-xxl {
       padding: $base-padding * 10 0 $base-padding * 11;

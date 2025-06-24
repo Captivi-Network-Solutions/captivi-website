@@ -16,24 +16,29 @@ content_blocks:
       - title: Does Captivi work with any WiFi system?
         description: Captivi is built specifically for Ubiquiti UniFi networks. We may already work with other platforms or could expand in the future—contact us if you have questions!
       - title: How does the Square integration work?
-        description: Captivi verifies guest WiFi access by checking for a valid Square receipt code and order total. You control the rules—such as how long access is granted and bandwidth limits.
+        description: Captivi verifies guest WiFi access by checking for a valid Square receipt code and order total. You control other rules—such as how long access is granted and bandwidth limits.
       - title: Is guest data safe and private?
         description: >-
-          Yes! Captivi only verifies purchase and device information for the purposes of connecting to Wi-Fi. We don’t store or sell guest browsing data.
+          Yes. Captivi is designed around privacy and security. We verify a receipt and device ID — that’s it. No browsing data is collected, stored, or sold. Ever.
       - title: Can I customize the captive portal?
-        description: Absolutely. We provide a basic template but you can (and should) add your own logo, colors, and messaging for a seamless guest experience across 1 or 100 (or more) locations.
+        description: Absolutely. We provide a basic template but you control your branding — logo, colors, and messages — across all locations. Captivi ensures your brand is what customers see (not ours).
       - title: What support is included?
-        description: All maintenance plans include transparent remote updates, email support, and rapid response to outages. Proactive and reactive network monitoring is included at our Premium level, for care that goes beyond the guest Wi-Fi experience. Phone and onsite support is available by request for an additional fee (varies based on request-ask us for a price list).
+        description: Every Captivi plan includes email support and automatic cloud-based remote updates. Premium plans add proactive UniFi monitoring, improved response-time SLAs, and network consulting. Need more? Phone or on-site support is available by request — just ask and we’ll tailor a quote.
       - title: What if I need a network upgrade?
-        description: Our team can help design, upgrade, or troubleshoot your UniFi environment—see our Network Design Services above.
+        description: Our team can help design, upgrade, or troubleshoot your environment. We offer expert guidance and hands-on help for UniFi upgrades, VLAN design, access point placement, firewall tuning, and more.
       - title: What forms of payment do you accept?
         description: We accept credit cards, checks, and cash.
       - title: In which currencies can I make payments?
         description: All payments are in **USD**.
 
   - _bookshop_name: contact/hero
-    title: Need some help?
-    description: If you're an existing customer and need help, you're in the right place!
+    title: Need Help With Captivi or Your Network?
+    description: | 
+      Real people who understand networking. No bots, no runaround. Just clear, prompt support.
+      
+      --
+
+      _Most messages receive a response within 1 business day. For existing customers with Premium support, faster SLA response times apply._
   - _bookshop_name: contact/form
     phone:
       heading: Phone
