@@ -59,12 +59,12 @@ content_blocks:
     title: Our leadership team
     team_members:
       - name: Nikolas Mcconnell
-        designation: Co-Founder & CEO
+        designation: Founder & Lead Engineer
         image_path: /images/team/1.jpg
       - name: Harmony Dunlop
         designation: Head of Sales
         image_path: /images/team/5.jpg
       - name: Fran Figureson
-        designation: Head of People
+        designation: Head of Support
         image_path: /images/team/8.jpg
 ---

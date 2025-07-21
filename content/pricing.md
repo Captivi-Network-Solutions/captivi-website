@@ -59,9 +59,9 @@ content_blocks:
             isActive: true
           - item: 3 Sites
             isActive: true
-          - item: UniFi Network Monitoring
-            isActive: true
           - item: One-time Setup Fee
+            isActive: true
+          - item: UniFi Network Monitoring
             isActive: true
         btn:
           link: /contact
@@ -86,29 +86,17 @@ content_blocks:
             isActive: true
           - item: 5 Sites
             isActive: true
+          - item: "~~One-time Setup Fee~~"
+            isActive: false
           - item: UniFi Network Monitoring
             isActive: true
           - item: UniFi Proactive Recommendations
             isActive: true
+          - item: "*Static IP/DDNS-free Integration*"
+            isActive: true
         btn:
           link: /contact
           text: Get Started
-
-  - _bookshop_name: global/feature
-    title: One-time Setup Fee
-    description: |
-      **$250***
-
-      Includes everything you need to get going: branded captive portal setup, Square integration, UniFi configuration, and basic onboarding support.
-
-      *_Multi-site and complex installs may require additional cost._
-
-      *_Fee waived for Managed tier customers._
-    image_path: /images/feature/feature-implementation.png
-    btn:
-      text: Contact Us
-      link: /contact
-    reversed: false
 
   - _bookshop_name: global/feature
     title: Network Design & Optimization
@@ -128,4 +116,32 @@ content_blocks:
       text: Get in Touch
       link: /contact
     reversed: true
+
+  - _bookshop_name: global/feature
+    title: Static IP/DDNS-free Integration
+    description: |
+      **Wait... I don't need a static IP or Dynamic DNS setup!?**
+
+      You're reading that right. Our focus on modern Unifi integrations enables us to automatically detect your controllers ISP information and use that to drive the rest of the process. The best part: no additional hardware and no additional setup for you. Everything you provide to setup your Managed account covers everything we need to make the magic happen.
+    image_path: /images/feature/feature-implementation.png
+    btn:
+      text: Contact Us
+      link: /contact
+    reversed: false
+  
+  - _bookshop_name: global/feature
+    title: One-time Setup Fee
+    description: |
+      **$250***
+
+      Includes everything you need to get going: branded captive portal setup, Square integration, UniFi configuration, and basic onboarding support.
+
+      *_Multi-site and complex installs may require additional cost._
+
+      *_Fee waived for Managed tier customers._
+    image_path: /images/feature/feature-implementation.png
+    btn:
+      text: Contact Us
+      link: /contact
+    reversed: false
 ---
