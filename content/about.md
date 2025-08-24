@@ -27,7 +27,7 @@ content_blocks:
   - _bookshop_name: about/hero
     title: Why Captivi?
     description: |
-      Most captive portals today focus on lead generation-and that's OK. But... they ask your guests for phone numbers, email addresses, or other information that -at best- slows the experience down and causes friction. That data is then turned around and positioned for marketing/selling. That’s not always what you signed up for.
+      Most captive portals today focus on lead generation-and that's OK. But... they ask your guests for phone numbers, email addresses, or other information that -at best- slows the experience down and causes friction. That data is then turned around and positioned for marketingor resale. That’s not always what you signed up for.
       
       Captivi does the opposite. We focus on network quality, staff safety, and customer experience.
       

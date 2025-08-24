@@ -45,17 +45,30 @@ content_blocks:
    -
       _bookshop_name: global/feature
       image_path: /images/feature/feature-card-three-captivi.png
-      title: Modern. Secure. Flexible.
+      title: Branded Captive Portal.
       description: >-
-         Keep your network safe. Only paying or validated guests connect, with customizable timeouts, access, and bandwidth rules.
-         Clean, branded captive portal on any device. No app required.
+         Your logo, your colors, your Wi‑Fi. Captivi redirects modern devices with no app required.
+      reversed: true
+   -
+      _bookshop_name: global/feature
+      image_path: /images/feature/feature-card-three-captivi.png
+      title: UniFi Network Monitoring
+      description: >-
+         Captivi experts will monitor your UniFi network for alerts, outages, and other notifications, and provide insights and guidance on what to do next.  _*Available on Monitored and Managed tier._
       reversed: false
    -
       _bookshop_name: global/feature
       image_path: /images/feature/feature-card-three-captivi.png
-      title: Branded Captive Portal.
+      title: UniFi Proactive Recommendations
       description: >-
-         Your logo, your colors, your Wi‑Fi. Captivi works on any modern device with no app required.
+         Regular reviews of your site configurations will be performed to ensure your network is optimized and secure. If we find something, someone from our team will send remediation guidance, or if it's a complex change, you can hire us to do it.  _*Available on Managed tier only._ 
+      reversed: false
+   -
+      _bookshop_name: global/feature
+      image_path: /images/feature/feature-card-three-captivi.png
+      title: "Coming Soon: Static IP/DDNS-free Integration"
+      description: >-
+         We automatically detect your controllers ISP information; No static IP or DDNS configurations required. On top of that, no additional hardware and no additional setup for you. Everything you provide during onboarding covers what we need to make the magic happen. _*Available on **Managed tier only**._
       reversed: true
    -
       _bookshop_name: global/feature
