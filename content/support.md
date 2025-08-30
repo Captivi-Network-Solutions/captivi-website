@@ -40,9 +40,9 @@ content_blocks:
 
       _Most messages receive a response within 1 business day. For existing customers with Premium support, faster SLA response times apply. For sales support, click 'Get Started' at the top._
   - _bookshop_name: support-contact/form
-    phone:
-      heading: Phone
-      cell: (123) 456 - 7895
+    #phone:
+    #  heading: Phone
+    #  cell: (123) 456 - 7895
     email:
       heading: Support
       email: support@captivi.info

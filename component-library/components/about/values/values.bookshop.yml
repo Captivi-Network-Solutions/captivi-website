@@ -1,0 +1,24 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: About Values & Philosophy
+  description: Two-column section for values and philosophy.
+  icon: "view_column"
+  tags: ["text", "list"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title_left: Our Values
+  values_intro: What guides how we serve customers.
+  values:
+    - title: Clarity over jargon
+      description: We believe technology should be explained in plain English, not buried in acronyms or buzzwords. If you can’t understand it, it isn’t a solution.
+  title_right: Our Philosophy
+  philosophy_intro: We don’t believe in tech for tech’s sake. A solution is only as good as its ability to make your day easier, safer, and more productive. Our approach is simple:
+  principles:
+    - title: Listen first.
+      description: We spend more time understanding your needs than pitching canned solutions.
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:

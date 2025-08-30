@@ -1,0 +1,38 @@
+<section class="about-values pt-5 pb-5">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-6">
+        <div class="section-header mb-3">
+          {{ with .title_left }}<h2>{{ . }}</h2>{{ end }}
+        </div>
+        {{ with .values_intro }}
+        <p class="mb-4 fs-6">{{ . }}</p>
+        {{ end }}
+        <ul class="list-unstyled m-0">
+          {{ range .values }}
+          <li class="mb-4">
+            <h5 class="mb-1">{{ .title }}</h5>
+            {{ with .description }}<p class="m-0 fs-6">{{ . }}</p>{{ end }}
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      <div class="col-lg-6">
+        <div class="section-header mb-3">
+          {{ with .title_right }}<h2>{{ . }}</h2>{{ end }}
+        </div>
+        {{ with .philosophy_intro }}
+        <p class="fw-semibold mb-4 fs-6">{{ . }}</p>
+        {{ end }}
+        <ul class="list-unstyled m-0 mt-3">
+          {{ range .principles }}
+          <li class="mb-3">
+            <h5 class="mb-1">{{ .title }}</h5>
+            {{ with .description }}<p class="m-0 fs-6">{{ . }}</p>{{ end }}
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

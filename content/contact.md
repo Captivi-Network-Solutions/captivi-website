@@ -12,9 +12,9 @@ content_blocks:
     title: Let's get your network going.
     description: Want to get your account started or have questions? This is the best place to start!
   - _bookshop_name: contact/form
-    address:
-      heading: Office Address
-      address: 123 Train St, San Francisco, CA 9107
+    #address:
+    #  heading: Office Address
+    #  address: 123 Train St, San Francisco, CA 9107
     #phone:
     #  heading: Phone
     #  cell: (123) 456 - 7895
