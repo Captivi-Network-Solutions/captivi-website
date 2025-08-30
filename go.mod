@@ -1,3 +1,4 @@
+//TODO: update module path. comment out old path for reference.
 module sendit.local
 
 go 1.17
