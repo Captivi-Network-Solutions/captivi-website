@@ -84,12 +84,12 @@ content_blocks:
     title_right: Our Philosophy
     philosophy_intro: "We don’t believe in tech for tech’s sake. A solution is only as good as its ability to make your day easier, safer, and more productive. Our approach is simple:"
     principles:
-      - title: Listen first.
+      - title: Listen first
         description: We spend more time understanding your needs than pitching canned solutions.
-      - title: Design smart.
+      - title: Design smart
         description: Infrastructure should scale with your growth, not box you in.
-      - title: Keep it lean.
+      - title: Keep it lean
         description: We focus on tools and workflows that solve problems directly, without bloat.
-      - title: Be transparent.
+      - title: Be transparent
         description: No hidden fees, no smoke and mirrors. Just straightforward advice and execution.
 ---
