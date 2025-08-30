@@ -15,9 +15,9 @@ content_blocks:
     address:
       heading: Office Address
       address: 123 Train St, San Francisco, CA 9107
-    phone:
-      heading: Phone
-      cell: (123) 456 - 7895
+    #phone:
+    #  heading: Phone
+    #  cell: (123) 456 - 7895
     email:
       heading: Sales
       email: sales@captivi.info

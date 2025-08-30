@@ -1,4 +1,4 @@
-baseURL = ''
+baseURL = 'https://captivi.info'
 languageCode = 'en-us'
 title = 'Captivi'
 

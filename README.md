@@ -1,48 +1,101 @@
-# Sendit
+# Captivi Website
 
-Sendit is a polished, marketing website template for Hugo. Browse through a [live demo](https://jovial-pipe.cloudvent.net/). 
+Captivi’s marketing website built with Hugo and Bookshop.
 
-![Sendit template screenshot](static/images/_screenshot.png)
-
-
-[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/sendit-hugo-template)
+![Site screenshot](static/images/_screenshot.png)
 
 ## Features
 
-* Pre-built pages
-* Pre-styled components
-* Blog with pagination and category pages
-* Configurable navigation and footer
-* Multiple hero options 
-* Optimised for editing in [CloudCannon](https://cloudcannon.com/)
+- Pre-built pages and components
+- Blog with pagination and categories
+- Configurable navigation and footer
+- Multiple hero options
 
-## Setup
+## Tech Stack
 
-Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Hugo locally).
+- Hugo for static site generation
+- Bookshop for component-driven content
+- Node.js scripts for local dev tooling
 
-## Develop
+## Prerequisites
 
-Sendit was built with [Hugo](https://gohugo.io/) version `0.128.1`, but should support newer versions as well.
-### Prerequisites
-* Hugo [install](https://gohugo.io/getting-started/installing/). `brew install hugo`
-* Go [install](https://go.dev/learn/). `brew install go`
+- Hugo: install from https://gohugo.io/getting-started/installing/ (e.g., `brew install hugo`)
+- Go: install from https://go.dev/ (e.g., `brew install go`)
+- Node.js + npm: https://nodejs.org/
 
-### Quickstart
-1. In the terminal at the root dir, run: `npm i`
-2. Start site and bookshop: `npm run dev` OR site alone: `npm run start`
-* By default bookshop live browser will be at : [http://localhost:30775/](http://localhost:30775/)
-* By default the site will be at : [http://localhost:1313/](http://localhost:1313/)
+## Quickstart
 
-## Editing
+1. Install dependencies: `npm i`
+2. Start site + Bookshop browser: `npm run dev`
+   - Bookshop: http://localhost:30775/
+   - Site: http://localhost:1313/
+3. Site only: `npm run start`
 
-Sendit is set up for adding, updating and removing pages, components, posts, portfolio items, company details and footer elements in [CloudCannon](https://app.cloudcannon.com/).
+## Build
 
-### Company details
+- Production build to `public/`: `npm run build`
 
-* Reused around the site to save multiple editing locations.
-* Set in the *Data* / *Company* section.
+## Editing Content
 
-### Nav/footer details
+- Pages and posts: edit files in `content/`
+- Site metadata: `data/meta.yaml`
+- Navigation: `data/nav.yaml`
+- Footer: `data/footer.yaml`
+- Static assets: `static/`
 
-* Reused around the site to save multiple editing locations.
-* Set in the *Data* section with respective names
+## Deployment (GitHub Pages)
+
+We deploy with GitHub Actions to GitHub Pages. The workflow builds the site with Hugo and publishes it using Pages.
+
+1. In your repository settings, enable GitHub Pages with "GitHub Actions" as the source.
+2. Add the workflow below to `.github/workflows/deploy.yml`.
+
+```
+name: Deploy site
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.128.1'
+          extended: true
+      - name: Install deps
+        run: npm ci
+      - name: Build
+        run: npm run build
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+```
+
+After the first successful run, the site will be available at the configured GitHub Pages URL.

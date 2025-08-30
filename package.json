@@ -1,7 +1,7 @@
 {
-  "name": "sendit_hugo",
+  "name": "captivi-website",
   "version": "1.0.0",
-  "description": "Starter template for hugo and bookshop",
+  "description": "Captivi marketing website built with Hugo and Bookshop",
   "main": "index.js",
   "scripts": {
     "start": "run-p hugo-server",
@@ -15,10 +15,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CloudCannon/sendit-hugo-template.git"
+    "url": "git+https://github.com/Captivi-Network-Solutions/captivi-website.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["hugo", "bookshop", "marketing-site", "captivi"],
+  "author": "Captivi Network Solutions",
   "license": "MIT",
   "dependencies": {
     "@bookshop/browser": "^3.1.2",

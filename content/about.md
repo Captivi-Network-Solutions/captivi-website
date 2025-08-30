@@ -56,15 +56,15 @@ content_blocks:
         text: Value of networks protected
 
   - _bookshop_name: about/team
-    title: Our leadership team
+    title: Our team
     team_members:
       - name: Nikolas Mcconnell
         designation: Founder & Lead Engineer
-        image_path: /images/team/1.jpg
+        #image_path: /images/team/1.jpg
       - name: Harmony Dunlop
         designation: Head of Sales
-        image_path: /images/team/5.jpg
+        #image_path: /images/team/5.jpg
       - name: Fran Figureson
         designation: Head of Support
-        image_path: /images/team/8.jpg
+        #image_path: /images/team/8.jpg
 ---
