@@ -42,7 +42,7 @@ content_blocks:
         description: Plus monitoring and expert guidance.
         price: 150/mo
         hasDiscount: true
-        discountPrice: 100
+        discountPrice: 100/hr
         isActive: true
         feature:
           - item: 100% Portal Uptime
@@ -68,7 +68,7 @@ content_blocks:
         description: Full-service Wi‑Fi and expert care.
         price: 300/mo
         hasDiscount: true
-        discountPrice: 250
+        discountPrice: 250/mo
         isActive: false
         feature:
           - item: 100% Portal Uptime
