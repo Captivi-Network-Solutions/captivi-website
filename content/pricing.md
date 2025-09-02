@@ -16,7 +16,7 @@ content_blocks:
     pricing_tier:
       - tier: Secured
         description: Wi‑Fi with receipt verification.
-        price: 50
+        price: 50/mo
         hasDiscount: false
         discountPrice: 0
         isActive: false
@@ -40,7 +40,7 @@ content_blocks:
           text: Get Started
       - tier: Monitored
         description: Plus monitoring and expert guidance.
-        price: 150
+        price: 150/mo
         hasDiscount: true
         discountPrice: 100
         isActive: true
@@ -66,7 +66,7 @@ content_blocks:
           text: Get Started
       - tier: Managed
         description: Full-service Wi‑Fi and expert care.
-        price: 300
+        price: 300/mo
         hasDiscount: true
         discountPrice: 250
         isActive: false
