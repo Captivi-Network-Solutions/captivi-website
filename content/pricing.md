@@ -40,9 +40,9 @@ content_blocks:
           text: Get Started
       - tier: Monitored
         description: Plus monitoring and expert guidance.
-        price: 150/mo
+        price: 150
         hasDiscount: true
-        discountPrice: 100/hr
+        discountPrice: 100/mo
         isActive: true
         feature:
           - item: 100% Portal Uptime
@@ -66,7 +66,7 @@ content_blocks:
           text: Get Started
       - tier: Managed
         description: Full-service Wi‑Fi and expert care.
-        price: 300/mo
+        price: 300
         hasDiscount: true
         discountPrice: 250/mo
         isActive: false
