@@ -14,7 +14,7 @@ content_blocks:
       description: |
          Captivi keeps your network fast, private, and hassle-free by giving Wi‑Fi access only to paying customers — using your existing Square POS and UniFi gear.
          
-         **No signups. No social logins. No staff tech support.**
+         **No customer signups. No social logins. No staff tech support.**
       image_path: /images/hero/captivi-login-page2.png
       link:
          text: Features

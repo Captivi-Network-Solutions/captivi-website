@@ -21,7 +21,7 @@ content_blocks:
         discountPrice: 0
         isActive: false
         feature:
-          - item: 100% Portal Uptime
+          - item: Enterprise-Grade Availability
             isActive: true
           - item: Non-disruptive Updates
             isActive: true
@@ -40,12 +40,12 @@ content_blocks:
           text: Get Started
       - tier: Monitored
         description: Plus monitoring and expert guidance.
-        price: 150
-        hasDiscount: true
-        discountPrice: 100/mo
+        price: 100/mo
+        hasDiscount: false
+        discountPrice: 0
         isActive: true
         feature:
-          - item: 100% Portal Uptime
+          - item: Enterprise-Grade Availability
             isActive: true
           - item: Non-disruptive Updates
             isActive: true
@@ -66,12 +66,12 @@ content_blocks:
           text: Get Started
       - tier: Managed
         description: Full-service Wi‑Fi and expert care.
-        price: 300
-        hasDiscount: true
-        discountPrice: 250/mo
+        price: 250/mo
+        hasDiscount: false
+        discountPrice: 0
         isActive: false
         feature:
-          - item: 100% Portal Uptime
+          - item: Enterprise-Grade Availability
             isActive: true
           - item: Non-disruptive Updates
             isActive: true
@@ -89,7 +89,7 @@ content_blocks:
             isActive: true
           - item: UniFi Proactive Recommendations
             isActive: true
-          - item: "*Static IP/DDNS-free Integration*"
+          - item: "*CloudRoute (Coming Soon)*"
             isActive: true
         btn:
           link: /contact
@@ -179,12 +179,12 @@ content_blocks:
   #   reversed: true
 
   - _bookshop_name: global/feature
-    title: Static IP/DDNS-free Integration
+    title: CloudRoute - Static IP/DDNS-free Integration
     description: |
       **Wait... I don't need a static IP or Dynamic DNS setup!?**
 
       You're reading that right. Our focus on modern Unifi integrations enables us to automatically detect your controllers ISP information and use that to drive the rest of the process. The best part: no additional hardware and no additional setup for you. Everything you provide to setup your Managed account covers everything we need to make the magic happen.
-    image_path: /images/feature/feature-implementation.png
+    image_path: /images/feature/feature-card-cloudroute.png
     btn:
       text: Contact Us
       link: /contact
