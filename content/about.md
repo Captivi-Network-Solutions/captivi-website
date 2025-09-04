@@ -15,11 +15,11 @@ content_blocks:
 
       So we built something simple: secure guest Wi‑Fi that just works — backed by world class cloud components, and real support, no marketing fluff.
     hero_images:
-      - image_path: /images/about/aboutfeature-two.jpg
+      - image_path: /images/about/aboutfeature-five.png
         placer: front_bottom
-      - image_path: /images/about/aboutfeature-three.jpg
+      - image_path: /images/about/aboutfeature-six.png
         placer: back_top_right
-      - image_path: /images/about/aboutfeature-four.jpg
+      - image_path: /images/about/aboutfeature-seven.png
         placer: back_top_left
     link:
       text: Features
@@ -33,11 +33,11 @@ content_blocks:
       
       _We realize that sometimes you are looking for a lead-generation platform, and if that's the case we're happy to recommend some amazing products (that aren't Captivi). Satisfaction with your network is one of our core tenants, and we know that doesn't always mean it's with us!_
     hero_images:
-      - image_path: /images/about/aboutfeature-two.jpg
+      - image_path: /images/about/aboutfeature-nine.png
         placer: front_bottom
-      - image_path: /images/about/aboutfeature-three.jpg
+      - image_path: /images/about/aboutfeature-eight.png
         placer: back_top_right
-      - image_path: /images/about/aboutfeature-four.jpg
+      - image_path: /images/about/aboutfeature-ten.png
         placer: back_top_left
     link:
       text: Features
